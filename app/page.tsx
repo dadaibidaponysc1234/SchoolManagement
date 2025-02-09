@@ -134,7 +134,7 @@ export default function Login() {
               </div>
             </form>
             <p className={styles.NoAccount}>
-              Don't have an account?
+              DonIt&#39;t have an account?
               <Link href="/Register">
                 <span>Register now</span>
               </Link>

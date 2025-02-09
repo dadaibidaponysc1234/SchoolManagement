@@ -11,7 +11,7 @@ interface CustomError extends Error {
 }
 
 const Register = () => {
-  const [showPassword, setShowPassword] = useState<Boolean>(false);
+  const [showPassword, setShowPassword] = useState<boolean>(false);
   const [schoolid, setSchoolid] = useState<string>("");
   const [Pin, setPin] = useState<string>("");
   const [schooliderror, setSchooliderror] = useState<string>("");

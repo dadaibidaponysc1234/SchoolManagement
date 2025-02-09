@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import styles from "../../../css/StudentAuth.module.css";
 import { LuCopy } from "react-icons/lu";
 import Link from "next/link";
