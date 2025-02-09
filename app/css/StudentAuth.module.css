@@ -1,0 +1,358 @@
+.Student_Auth_Container {
+  width: 100%;
+  display: flex;
+  height: auto;
+  font-family: "Roboto", serif;
+  background-color: rgba(217, 217, 217, 0.4);
+}
+.Student_Left_Auth,
+.Student_Right_Auth {
+  width: 50%;
+}
+.Student_Left_Auth {
+  background-color: #01427a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+}
+.login_box {
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.Login_input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
+}
+.pswd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pswd p {
+  font-size: 12px;
+  color: #00000080;
+  font-weight: 700;
+}
+.Login_input label {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.Login_input input {
+  background-color: #f0eeed;
+  border: none;
+  max-width: 478px;
+  padding: 0 16px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 400;
+  color: #00000033;
+  font-size: 12px;
+}
+.Login_input .username {
+  margin-top: 10px;
+}
+.toggle {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.toggle input {
+  flex: 1;
+  padding-right: 40px; /* Add padding to make space for the icon */
+}
+
+.eye svg {
+  border: 1px solid rgba(34, 34, 34, 1);
+}
+.loginbtn {
+  display: block;
+}
+.loginbtn button {
+  width: 100%;
+  background-color: rgba(1, 66, 122, 1);
+  border-radius: 5px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  padding: 10px 16px 10px 16px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.loginbtn button:hover {
+  background-color: rgba(1, 66, 122, 0.8);
+}
+
+.logo img {
+  width: 100%;
+  object-fit: contain;
+}
+.login_form {
+  width: 300px;
+}
+.login_form h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.login_form .title p {
+  font-size: 12px;
+  line-height: 18.75px;
+  color: #00000080;
+  font-weight: 700;
+}
+.Student_Right_Auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login_img {
+  object-fit: contain;
+  max-width: 827.57px;
+  max-height: 473.84px;
+}
+.Student_Left_Auth img {
+  width: 90%;
+  height: auto;
+  padding: 0 10px 10px 20px;
+  margin-bottom: 40px;
+}
+.NoAccount {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+}
+.NoAccount span {
+  color: rgba(244, 116, 88, 1);
+  cursor: pointer;
+}
+.NoAccount a {
+  text-decoration: none;
+}
+
+.NoAccount span:hover {
+  text-decoration: underline;
+}
+.error {
+  color: rgba(242, 100, 92, 1);
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.Regtitle {
+  font-weight: 700;
+}
+.Regtitle p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+  margin-top: 0;
+}
+.Regtitle h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.rolebtn {
+  margin-top: 40px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Reg_box {
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.15);
+}
+.Token_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", serif;
+  background-color: rgba(217, 217, 217, 0.4);
+}
+.Token_box .title {
+  text-align: center;
+}
+.Token_box div {
+  text-align: left;
+}
+.Token_box {
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  padding: 100px 50px 100px 50px;
+  width: 500px;
+}
+.Token_box  h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.copytokentitle {
+  color: rgba(242, 100, 92, 1);
+  margin-bottom: 10px;
+}
+
+.copytoken {
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.copytoken svg {
+  cursor: pointer;
+}
+.continuebtn {
+  width: 100%;
+  background-color: rgba(27, 182, 110, 1);
+  border-radius: 5px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  padding: 10px 16px 10px 16px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+.continuebtn:hover {
+  background-color: rgba(27, 182, 110, 0.8); /* Slightly darker green */
+  color: rgba(255, 255, 255, 0.9); /* Slightly less white */
+  transform: scale(1.05); /* Slightly increase the size */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+.copiedMessage {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(27, 182, 110, 1);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+  z-index: 1000;
+  transition: opacity 0.3s ease;
+}
+@media (min-width: 750px) {
+  .Reg_box {
+    padding: 61px 31px 81px 31px;
+  }
+  .login_box {
+    padding: 10px 31px 10px 31px;
+  }
+  .Reg_box2 {
+    padding: 40px 20px 40px 20px;
+  }
+  .Login_input input {
+    height: 30px;
+    /* max-width: 200px; */
+  }
+  .loginbtn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .login_form h1 {
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .logo {
+    width: 80px;
+    height: 129px;
+    margin-bottom: -40px;
+  }
+  .eye {
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1024px) {
+  .eye {
+    position: absolute;
+    right: 10px;
+    top: 22px;
+    cursor: pointer;
+  }
+  .login_form h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .loginbtn {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .Reg_box {
+    padding: 81px 51px 81px 51px;
+  }
+  .login_box {
+    padding: 10px 51px 10px 51px;
+  }
+  .Reg_box2 {
+    padding: 60px 51px 60px 51px;
+  }
+  .Login_input input {
+    height: 48px;
+  }
+  .logo {
+    width: 100px;
+    height: 129px;
+    margin-bottom: -20px;
+  }
+}
+.rolebtn .teacher {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(1, 66, 122, 1);
+  border: 1px solid rgba(1, 66, 122, 1);
+}
+.rolebtn .student {
+  color: rgba(1, 66, 122, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(1, 66, 122, 1);
+}
+.rolebtn button {
+  border-radius: 5px;
+  padding: 10px 16px 10px 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.rolebtn .teacher:hover {
+  background-color: rgba(1, 66, 122, 0.8);
+}
+.rolebtn .student:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(1, 66, 122, 1);
+}
+
+.Reg_box2 {
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.Regtitle2 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.Regtitle2 p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+  margin-top: 0;
+}
+.Regtitle2 h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
