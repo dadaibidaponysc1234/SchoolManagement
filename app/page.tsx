@@ -10,7 +10,7 @@ interface CustomError extends Error {
   message: string;
 }
 export default function Login() {
-  const [showPassword, setShowPassword] = useState<Boolean>(false);
+  const [showPassword, setShowPassword] = useState<boolean>(false);
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const [usernameerror, setUsernameerror] = useState<string>("");
@@ -134,7 +134,7 @@ export default function Login() {
               </div>
             </form>
             <p className={styles.NoAccount}>
-              DonIt&#39;t have an account?
+              Don&#39;t have an account?
               <Link href="/Register">
                 <span>Register now</span>
               </Link>
